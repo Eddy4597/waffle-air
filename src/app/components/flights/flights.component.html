@@ -1,0 +1,22 @@
+<div class="d-flex justify-content-center" style="min-height: 1200px;">
+    <div class="container">
+        <table class="table table-bordered table-sm table-hover text-white">    
+            <tr>    
+              <th>ID</th> 
+              <th>Time</th>
+              <th>Distance</th>
+              <th>Pilot</th>
+              <th>Aircraft</th>
+              <th>Income</th>
+            </tr>    
+            <tr *ngFor="let item of items">    
+              <td>{{item.Id}}</td>     
+              <td>{{item.Time}}</td>   
+              <td>{{item.Distance}} NM</td>  
+              <td>{{item.Pilot}}</td>  
+              <td>[{{item.Aircraft}}] - {{item.MakeModel}}</td>  
+              <td>{{item.Income}}</td>  
+            </tr>    
+          </table>  
+    </div>
+</div>
