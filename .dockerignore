@@ -46,5 +46,9 @@ testem.log
 Thumbs.db
 
 # Docker Related
+/docker-compose.yml
 /docker-compose.override.yml
 /.env
+
+# Version Control
+/.git
