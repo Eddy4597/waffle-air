@@ -15,7 +15,6 @@ jobs:
     steps:
     - name: npm install, ng build
       run: |
-        cd waffle-air
         npm install
         ng build --prod
         
